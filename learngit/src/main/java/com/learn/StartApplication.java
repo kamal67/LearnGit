@@ -1,10 +1,12 @@
 package com.learn;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class StartApplication {
 
     public static void main(String[] args){
-        System.out.println("Change in master");
-        System.out.println("Change in Git Learn");
-        System.out.println("Hello");
+        SpringApplication.run(StartApplication.class,args);
     }
 }
